@@ -1,0 +1,2 @@
+abc bca dbe 1 0 1
+ba za ca 1 1 1
