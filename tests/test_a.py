@@ -30,4 +30,4 @@ class TestProblemA(unittest.TestCase):
                 lambda local_f=function_to_test: list((local_f(input_seq)
                                                        for _, input_seq, _ in data)), number=5),
                          function_to_test.__name__))
-        self.assertEqual(min(perf)[1], FUNCTIONS_TO_TEST[0].__name__, perf)
+        self.assertEqual(min(perf)[1], FUNCTIONS_TO_TEST[-1].__name__, perf)
